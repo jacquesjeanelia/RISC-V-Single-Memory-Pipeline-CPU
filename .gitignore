@@ -1,0 +1,98 @@
+# Simulation and Waveform Files
+*.vcd
+*.saif
+*.vpd
+*.wlf
+*.wdb
+*.fsdb
+*.log
+
+# Compiled Verilog Files
+*.vvp
+*.out
+
+# Vivado/Xilinx Files
+*.jou
+*.str
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+*.pb
+*.dcp
+*.bit
+*.bin
+*.ltx
+*.rpt
+vivado*.backup*
+*.debug
+
+# ModelSim/Questa Files
+work/
+transcript
+vsim.wlf
+*.mpf
+*.mti
+modelsim.ini
+
+# Synopsys Files
+*.syn
+*.mr
+*.pvl
+*.svf
+csrc/
+simv
+simv.daidir/
+ucli.key
+
+# Cadence Files
+*.shm/
+*.trn
+*.dsn
+*.optrpt
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Build and Temporary Files
+*.exe
+*.o
+*.obj
+*.tmp
+*.temp
+build/
+bin/
+obj/
+
+# Python (if used for verification scripts)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+venv/
+env/
+
+# C/C++ (if used for testbenches or tools)
+*.a
+*.so
+*.dll
+*.dylib
+*.class
+
+# Backup Files
+*.bak
+*.backup
+*~
